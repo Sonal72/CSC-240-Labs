@@ -13,7 +13,7 @@ public class Auto {
     private double collision;
     private double commission;
     
-    // Default constructor 
+    // Default constructor (required for Lab 2)
     // Creates an empty Auto object to be filled using setters
     public Auto() { }
 
@@ -28,25 +28,51 @@ public class Auto {
     }
 
     // Getters and Setters
-    public String getFirstName() { return firstName; }
-    public void setFirstName(String firstName) { this.firstName = firstName; }
+    public String getFirstName() {
+    	return firstName; 
+    	}
+    public void setFirstName(String firstName) {
+    	this.firstName = firstName; 
+    	}
 
-    public String getLastName() { return lastName; }
-    public void setLastName(String lastName) { this.lastName = lastName; }
+    public String getLastName() {
+    	return lastName; 
+    	}
+    public void setLastName(String lastName) {
+    	this.lastName = lastName; 
+    	}
 
-    public String getMake() { return make; }
-    public void setMake(String make) { this.make = make; }
+    public String getMake() {
+    	return make; 
+    	}
+    public void setMake(String make) {
+    	this.make = make; 
+    	}
 
-    public String getModel() { return model; }
-    public void setModel(String model) { this.model = model; }
+    public String getModel() {
+    	return model; 
+    	}
+    public void setModel(String model) {
+    	this.model = model; 
+    	}
 
-    public double getLiability() { return liability; }
-    public void setLiability(double liability) { this.liability = liability; }
+    public double getLiability() {
+    	return liability; 
+    	}
+    public void setLiability(double liability) {
+    	this.liability = liability; 
+    	}
 
-    public double getCollision() { return collision; }
-    public void setCollision(double collision) { this.collision = collision; }
+    public double getCollision() {
+    	return collision; 
+    	}
+    public void setCollision(double collision) {
+    	this.collision = collision; 
+    	}
 
-    public double getCommission() { return commission; }
+    public double getCommission() {
+    	return commission; 
+    	}
 
     // Compute commission
     public void computeCommission() {
@@ -96,25 +122,51 @@ public class Home {
     }
 
     // Getters and Setters
-    public String getFirstName() { return firstName; }
-    public void setFirstName(String firstName) { this.firstName = firstName; }
+    public String getFirstName() {
+    	return firstName; 
+    	}
+    public void setFirstName(String firstName) {
+    	this.firstName = firstName; 
+    	}
 
-    public String getLastName() { return lastName; }
-    public void setLastName(String lastName) { this.lastName = lastName; }
+    public String getLastName() {
+    	return lastName; 
+    	}
+    public void setLastName(String lastName) {
+    	this.lastName = lastName; 
+    	}
 
-    public int getFootage() { return footage; }
-    public void setFootage(int footage) { this.footage = footage; }
+    public int getFootage() {
+    	return footage; 
+    	}
+    public void setFootage(int footage) {
+    	this.footage = footage; 
+    	}
 
-    public double getDwelling() { return dwelling; }
-    public void setDwelling(double dwelling) { this.dwelling = dwelling; }
+    public double getDwelling() {
+    	return dwelling; 
+    	}
+    public void setDwelling(double dwelling) {
+    	this.dwelling = dwelling; 
+    	}
 
-    public double getContents() { return contents; }
-    public void setContents(double contents) { this.contents = contents; }
+    public double getContents() {
+    	return contents; 
+    	}
+    public void setContents(double contents) {
+    	this.contents = contents; 
+    	}
 
-    public double getLiability() { return liability; }
-    public void setLiability(double liability) { this.liability = liability; }
+    public double getLiability() {
+    	return liability; 
+    	}
+    public void setLiability(double liability) {
+    	this.liability = liability; 
+    	}
 
-    public double getCommission() { return commission; }
+    public double getCommission() {
+    	return commission; 
+    	}
 
     // Compute commission
     public void computeCommission() {
@@ -137,6 +189,8 @@ public class Home {
 // ----------------------------
 // Life Class
 // ----------------------------
+package commissionCalculator;
+
 public class Life {
     // Instance variables
     private String firstName;
@@ -158,19 +212,37 @@ public class Life {
     }
 
     // Getters and Setters
-    public String getFirstName() { return firstName; }
-    public void setFirstName(String firstName) { this.firstName = firstName; }
+    public String getFirstName() {
+    	return firstName; 
+    	}
+    public void setFirstName(String firstName) {
+    	this.firstName = firstName; 
+    	}
 
-    public String getLastName() { return lastName; }
-    public void setLastName(String lastName) { this.lastName = lastName; }
+    public String getLastName() {
+    	return lastName; 
+    	}
+    public void setLastName(String lastName) {
+    	this.lastName = lastName; 
+    	}
 
-    public int getAge() { return age; }
-    public void setAge(int age) { this.age = age; }
+    public int getAge() {
+    	return age; 
+    	}
+    public void setAge(int age) {
+    	this.age = age; 
+    	}
 
-    public double getTerm() { return term; }
-    public void setTerm(double term) { this.term = term; }
+    public double getTerm() {
+    	return term; 
+    	}
+    public void setTerm(double term) {
+    	this.term = term; 
+    	}
 
-    public double getCommission() { return commission; }
+    public double getCommission() {
+    	return commission; 
+    	}
 
     // Compute commission
     public void computeCommission() {
@@ -191,6 +263,7 @@ public class Life {
 // ----------------------------
 // CommissionCalulator Class
 // ----------------------------
+package commissionCalculator;
 import java.util.Scanner;
 
 //Menu-driven commission calculator
